@@ -22,7 +22,21 @@ ul {
   float: right;
   display: flex;
 }
+.home{
+  color:white;
+ font-family: 'Courier New', Courier, monospace;
 
+}
+.home:hover{
+  color:white;
+  background-color: black;
+}
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+tr:nth-child(odd){
+  background-color: white;
+}
 
 li,h2 {
   margin: 15px;
@@ -79,7 +93,7 @@ h2{
 }
 footer {
   background: #061D25;
-  
+
   text-align: center;
 }
 footer a {
